@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+body{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 20px 0;
+	min-height: 100vh;
+	background: #d6eadf;
+
+}
+
+.frames{
+	width: 950px;
+	height: 600px;
+	
+}
+
+.container{
+	display:flex;
+	flex-direction: column;
+	background: #d6eadf;
+}
+
+.text-box{
+	background: #d6eadf;
+}
+
+ /* TABLE DIVs*/ 
+.general_checklist_div {
+	width: 900px;
+	height: 506px;
+	background-color: whitesmoke;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.homepage_div {
+	width: 884px;
+	height: 448px;
+	background-color: whitesmoke;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.landingpage_checklist_div { 
+	width: 884px;
+	height: 572px;
+	background-color: whitesmoke;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.productpage_checklist_div { 
+	width: 884px;
+	height: 782px;
+	background-color: whitesmoke;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.categorypage_checklist_div { 
+	width: 840px;
+	height: 550px;
+	background-color: whitesmoke;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.promotion_checklist_div { 
+	width: 738px;
+	height: 298px;
+	background-color: whitesmoke;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.gwppromotion_checklist_div { 
+	width: 738px;
+	height: 320px;
+	background-color: whitesmoke;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.cartpage_checklist_div { 
+	width: 886px;
+	height: 320px;
+	background-color: whitesmoke;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.navigation_checklist_div { 
+	width: 816px;
+	height: 320px;
+	background-color: whitesmoke;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.footer_checklist_div { 
+	width: 814px;
+	height: 257px;
+	background-color: whitesmoke;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.productoffline_checklist_div { 
+	width: 786px;
+	height: 195px;
+	background-color: whitesmoke;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+ /* End*/ 
+
+
+.takeImageBtn {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding: 0.7rem 2rem;
+	font-weight: 600;
+	font-size: 15px;
+	text-align: center;
+	text-decoration: none;
+	color: #A3BDED;
+	backface-visibility: hidden;
+	border: 0.3rem solid transparent;
+	border-radius: 3rem;
+	width: 800px;
+	height: 50px;
+  }
+  
+  .takeImageBtn1 {
+	border-color: transparent;
+	background-color: #A3BDED;
+	color: #000;
+	transition: transform 0.2s cubic-bezier(0.235, 0, 0.05, 0.95);
+  }
+	
+  .takeImageBtn1:hover {
+	transform: perspective(1px) scale3d(1.044, 1.044, 1) translateZ(0) !important;
+  }
+
+
+
+.pt-3-half {
+  padding-top: 1.4rem;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid black;
+  text-align: left;
+
+}
+
+
+
+
+
