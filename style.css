@@ -53,7 +53,7 @@ table, th, td {
 }
 .landingpage_checklist_div { 
 	width: 816px;
-	height: 572px;
+	height: 568px;
 	background-color: whitesmoke;
 	display: flex;
 	align-items: center;
@@ -61,7 +61,7 @@ table, th, td {
 }
 .productpage_checklist_div { 
 	width: 816px;
-	height: 782px;
+	height: 754px;
 	background-color: whitesmoke;
 	display: flex;
 	align-items: center;
