@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
 
+
 body{
 	display: flex;
 	flex-direction: column;
@@ -8,6 +9,12 @@ body{
 	gap: 20px 0;
 	min-height: 100vh;
 	background: #d6eadf;
+
+}
+
+table, th, td {
+	border: 2px solid black;
+	border-collapse: collapse;
 
 }
 
