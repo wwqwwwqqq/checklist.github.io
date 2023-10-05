@@ -37,7 +37,7 @@ table, th, td {
  /* TABLE DIVs*/ 
 .general_checklist_div {
 	width: 900px;
-	height: 506px;
+	height: 510px;
 	background-color: whitesmoke;
 	display: flex;
 	align-items: center;
