@@ -10,10 +10,6 @@ function yesno(thecheckbox, thelabel) {
   if (clickCount === 1) {
 	labelvar.innerHTML = "Y";
   } else if (clickCount === 2) {
-	labelvar.innerHTML = "N";
-  } else if (clickCount === 3) {
-	labelvar.innerHTML = "Y/N";
-  } else if (clickCount === 4) {
 	labelvar.innerHTML = "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;";
 	clickCount = 0; // Reset count for next cycle
   }
