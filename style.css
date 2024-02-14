@@ -36,40 +36,40 @@ table, th, td {
 
  /* TABLE DIVs*/ 
 .general_checklist_div {
-	width: 830px;
-	height: 510px;
+	width:965px;
+	height: 615px;
 	background-color: whitesmoke;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
 .homepage_div {
-	width: 816px;
-	height: 448px;
+	width: 980px;
+	height: 635px;
 	background-color: whitesmoke;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
 .landingpage_checklist_div { 
-	width: 816px;
-	height: 568px;
+	width: 978px;
+	height: 578px;
 	background-color: whitesmoke;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
 .productpage_checklist_div { 
-	width: 816px;
-	height: 754px;
+	width: 975px;
+	height: 895px;
 	background-color: whitesmoke;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
 .categorypage_checklist_div { 
-	width: 776px;
-	height: 550px;
+	width: 978px;
+	height: 725px;
 	background-color: whitesmoke;
 	display: flex;
 	align-items: center;
