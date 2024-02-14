@@ -1,4 +1,16 @@
-/**For Toggle Checkbox script*/
+function yesno(thecheckbox, thelabel) {
+	var checkboxvar = document.getElementById(thecheckbox);
+	var labelvar = document.getElementById(thelabel);
+	
+	if (checkboxvar.checked == true) {
+	  labelvar.innerHTML = "Y";
+	} else {
+	  labelvar.innerHTML = "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;";
+	}
+  }
+
+
+/**For Toggle Checkbox script
 let clickCount = 0;
 
 function yesno(thecheckbox, thelabel) {
@@ -14,7 +26,7 @@ function yesno(thecheckbox, thelabel) {
 	clickCount = 0; // Reset count for next cycle
   }
 }
-
+*/
 /**----- */
 
 
