@@ -1,3 +1,27 @@
+/**For Toggle Checkbox script*/
+let clickCount = 0;
+
+function yesno(thecheckbox, thelabel) {
+  var checkboxvar = document.getElementById(thecheckbox);
+  var labelvar = document.getElementById(thelabel);
+  
+  clickCount++;
+
+  if (clickCount === 1) {
+	labelvar.innerHTML = "Y";
+  } else if (clickCount === 2) {
+	labelvar.innerHTML = "N";
+  } else if (clickCount === 3) {
+	labelvar.innerHTML = "Y/N";
+  } else if (clickCount === 4) {
+	labelvar.innerHTML = "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;";
+	clickCount = 0; // Reset count for next cycle
+  }
+}
+
+/**----- */
+
+
 const btn = document.querySelector('.takeImageBtn');
 
 btn.addEventListener('click', () => {
