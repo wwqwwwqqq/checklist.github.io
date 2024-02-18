@@ -76,48 +76,48 @@ table, th, td {
 	justify-content: center;
 }
 .promotion_checklist_div { 
-	width: 680px;
-	height: 298px;
+	width: 870px;
+	height: 280px;
 	background-color: whitesmoke;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
 .gwppromotion_checklist_div { 
-	width: 682px;
-	height: 320px;
+	width: 870px;
+	height: 300px;
 	background-color: whitesmoke;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
 .cartpage_checklist_div { 
-	width: 814px;
-	height: 320px;
+	width: 980px;
+	height: 510px;
 	background-color: whitesmoke;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
 .navigation_checklist_div { 
-	width: 752px;
-	height: 320px;
+	width: 980px;
+	height: 490px;
 	background-color: whitesmoke;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
 .footer_checklist_div { 
-	width: 752px;
-	height: 257px;
+	width: 980px;
+	height: 406px;
 	background-color: whitesmoke;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
 .productoffline_checklist_div { 
-	width: 724px;
-	height: 195px;
+	width: 870px;
+	height: 155px;
 	background-color: whitesmoke;
 	display: flex;
 	align-items: center;
