@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 body{
 	display: flex;
@@ -9,13 +9,13 @@ body{
 	gap: 20px 0;
 	min-height: 100vh;
 	background: #d6eadf;
-
+	font-family: "Montserrat", sans-serif;
 }
 
 table, th, td {
 	border: 2px solid black;
 	border-collapse: collapse;
-
+	font-family: "Montserrat", sans-serif;
 }
 
 .frames{
@@ -36,88 +36,88 @@ table, th, td {
 
  /* TABLE DIVs*/ 
 .general_checklist_div {
-	width:965px;
-	height: 615px;
+	width:1065px;
+	height: 645px;
 	background-color: whitesmoke;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
 .homepage_div {
-	width: 980px;
-	height: 635px;
+	width: 1082px;
+	height: 668px;
 	background-color: whitesmoke;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
 .landingpage_checklist_div { 
-	width: 978px;
-	height: 578px;
+	width: 1082px;
+	height: 626px;
 	background-color: whitesmoke;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
 .productpage_checklist_div { 
-	width: 975px;
-	height: 895px;
+	width: 1078px;
+	height:983px;
 	background-color: whitesmoke;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
 .categorypage_checklist_div { 
-	width: 978px;
-	height: 725px;
+	width: 1083px;
+	height: 793px;
 	background-color: whitesmoke;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
 .promotion_checklist_div { 
-	width: 870px;
-	height: 280px;
+	width: 950px;
+	height: 293px;
 	background-color: whitesmoke;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
 .gwppromotion_checklist_div { 
-	width: 870px;
-	height: 300px;
+	width: 958px;
+	height: 315px;
 	background-color: whitesmoke;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
 .cartpage_checklist_div { 
-	width: 980px;
-	height: 510px;
+	width: 1085px;
+	height: 535px;
 	background-color: whitesmoke;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
 .navigation_checklist_div { 
-	width: 980px;
-	height: 490px;
+	width: 1085px;
+	height: 515px;
 	background-color: whitesmoke;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
 .footer_checklist_div { 
-	width: 980px;
-	height: 406px;
+	width: 1085px;
+	height: 425px;
 	background-color: whitesmoke;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
 .productoffline_checklist_div { 
-	width: 870px;
-	height: 155px;
+	width: 950px;
+	height: 163px;
 	background-color: whitesmoke;
 	display: flex;
 	align-items: center;
