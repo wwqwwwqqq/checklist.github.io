@@ -77,7 +77,7 @@ table, th, td {
 }
 .promotion_checklist_div { 
 	width: 950px;
-	height: 293px;
+	height: 313px;
 	background-color: whitesmoke;
 	display: flex;
 	align-items: center;
@@ -85,7 +85,7 @@ table, th, td {
 }
 .gwppromotion_checklist_div { 
 	width: 958px;
-	height: 315px;
+	height: 338px;
 	background-color: whitesmoke;
 	display: flex;
 	align-items: center;
