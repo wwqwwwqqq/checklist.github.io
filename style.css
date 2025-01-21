@@ -13,11 +13,20 @@ body{
 }
 
 table, th, td {
-	border: 2px solid black;
+	border: 1px solid black;
 	border-collapse: collapse;
 	font-family: "Montserrat", sans-serif;
+	
 }
-
+table {
+	font-family: arial, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+  }
+td, th {
+	text-align: left;
+}
+  
 .frames{
 	width: 950px;
 	height: 600px;
@@ -36,40 +45,40 @@ table, th, td {
 
  /* TABLE DIVs*/ 
 .general_checklist_div {
-	width:1065px;
-	height: 645px;
+	width: 1170px;
+	height: 682px;
 	background-color: whitesmoke;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
 .homepage_div {
-	width: 1082px;
-	height: 668px;
+	width: 1186px;
+	height: 720px;
 	background-color: whitesmoke;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
 .landingpage_checklist_div { 
-	width: 1082px;
-	height: 626px;
+	width: 1185px;
+	height: 680px;
 	background-color: whitesmoke;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
 .productpage_checklist_div { 
-	width: 1078px;
-	height: 960px;
+	width: 1182px;
+	height: 1055px;
 	background-color: whitesmoke;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
 .categorypage_checklist_div { 
-	width: 1083px;
-	height: 793px;
+	width: 1186px;
+	height: 830px;
 	background-color: whitesmoke;
 	display: flex;
 	align-items: center;
@@ -92,32 +101,32 @@ table, th, td {
 	justify-content: center;
 }
 .cartpage_checklist_div { 
-	width: 1085px;
-	height: 535px;
+	width: 1186px;
+	height: 572px;
 	background-color: whitesmoke;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
 .navigation_checklist_div { 
-	width: 1085px;
-	height: 515px;
+	width: 1186px;
+	height: 550px;
 	background-color: whitesmoke;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
 .footer_checklist_div { 
-	width: 1085px;
-	height: 425px;
+	width: 1186px;
+	height: 460px;
 	background-color: whitesmoke;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
 .productoffline_checklist_div { 
-	width: 950px;
-	height: 163px;
+	width: 947px;
+	height: 180px;
 	background-color: whitesmoke;
 	display: flex;
 	align-items: center;
@@ -160,17 +169,6 @@ table, th, td {
   padding-top: 1.4rem;
 }
 
-table {
-  font-family: arial, sans-serif;
-  border-collapse: collapse;
-  width: 100%;
-}
-
-td, th {
-  border: 1px solid black;
-  text-align: left;
-
-}
 
 
 
