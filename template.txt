@@ -1,3 +1,15 @@
+table {
+	font-family: arial, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+  }
+  
+  td, th {
+	border: 2px solid black;
+	text-align: left;
+  
+  }
+  
 <tr>
 	<td contenteditable="true" style="font-size:11pt;"></td>
 	<td style="text-align:center; font-weight:bold;" contenteditable="true" style="font-size:11pt;">
