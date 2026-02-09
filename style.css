@@ -46,7 +46,7 @@ td, th {
  /* TABLE DIVs*/ 
 .general_checklist_div {
 	width: 1170px;
-	height: 682px;
+	height: 796px;
 	background-color: whitesmoke;
 	display: flex;
 	align-items: center;
@@ -54,7 +54,7 @@ td, th {
 }
 .homepage_div {
 	width: 1186px;
-	height: 720px;
+	height: 780px;
 	background-color: whitesmoke;
 	display: flex;
 	align-items: center;
@@ -62,7 +62,7 @@ td, th {
 }
 .landingpage_checklist_div { 
 	width: 1185px;
-	height: 680px;
+	height: 780px;
 	background-color: whitesmoke;
 	display: flex;
 	align-items: center;
@@ -70,7 +70,7 @@ td, th {
 }
 .productpage_checklist_div { 
 	width: 1182px;
-	height: 1055px;
+	height: 1155px;
 	background-color: whitesmoke;
 	display: flex;
 	align-items: center;
@@ -78,7 +78,7 @@ td, th {
 }
 .categorypage_checklist_div { 
 	width: 1186px;
-	height: 830px;
+	height: 910px;
 	background-color: whitesmoke;
 	display: flex;
 	align-items: center;
@@ -102,7 +102,7 @@ td, th {
 }
 .cartpage_checklist_div { 
 	width: 1186px;
-	height: 572px;
+	height: 630px;
 	background-color: whitesmoke;
 	display: flex;
 	align-items: center;
@@ -110,7 +110,7 @@ td, th {
 }
 .navigation_checklist_div { 
 	width: 1186px;
-	height: 550px;
+	height: 610px;
 	background-color: whitesmoke;
 	display: flex;
 	align-items: center;
@@ -118,7 +118,7 @@ td, th {
 }
 .footer_checklist_div { 
 	width: 1186px;
-	height: 460px;
+	height: 520px;
 	background-color: whitesmoke;
 	display: flex;
 	align-items: center;

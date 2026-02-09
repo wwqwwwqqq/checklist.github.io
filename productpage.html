@@ -96,10 +96,11 @@
 		</tr>
 
 		<tr>
-			<!-- v6 added -->
+			<!-- v7 added -->
 			<td contenteditable="true" style="font-size:11pt;">
 				Immersive PDP: Packshots are showing on mobile (carousel)<br>
-				<small>	<i><b>Condition:</b> Packshots are not cropped on the desktop (if there is no provided visual leave it as is and add a note)</i></small>				
+				<small>	<i><b>Condition:</b> Packshots are not cropped on the desktop (if there is no provided visual leave it as is and add a note)</i></small> <br>	
+				<small>	<i><b>Note:</b> Always double check the mobile immersive packshot (if there's a provided for mobile view)</i></small>			
 			</td>
 			<td contenteditable="true" style="font-size:11pt; text-align:center; font-weight:bold"><input type="checkbox" name="togglecheckbox111" id="togglecheckbox111" onclick="yesno('togglecheckbox111','valueforcheckbox111');" hidden/> <label for="togglecheckbox111" name="valueforcheckbox111" id="valueforcheckbox111">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
 			</td>
@@ -119,8 +120,21 @@
 			<td contenteditable="true" style="font-size:11pt; font-style: italic; text-align:center; font-weight:bold"></td>
 		</tr>
 		<tr>
-			<td contenteditable="true" style="font-size:11pt;">Corresponding texts and visuals</td>
-			<td contenteditable="true" style="font-size:11pt; text-align:center; font-weight:bold"><input type="checkbox" name="togglecheckbox14" id="togglecheckbox14" onclick="yesno('togglecheckbox14','valueforcheckbox14');" hidden/> <label for="togglecheckbox14" name="valueforcheckbox14" id="valueforcheckbox14">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+			<!-- v7 update -->
+			<td contenteditable="true" style="font-size:11pt;">Corresponding texts and visuals<br>
+				<small>	<i><b>Note:</b> Always double check the asset folder provided for expected visual output.</i></small>	
+			</td>
+			<td contenteditable="true" style="font-size:11pt; text-align:center; font-weight:bold">
+				<input type="checkbox" name="togglecheckbox14" id="togglecheckbox14" onclick="yesno('togglecheckbox14','valueforcheckbox14');" hidden/> <label for="togglecheckbox14" name="valueforcheckbox14" id="valueforcheckbox14">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+			</td>
+			<td contenteditable="true" style="font-size:11pt; font-style: italic; text-align:center; font-weight:bold"></td>
+		</tr>
+		<tr> 
+			<!-- v7 update -->
+			<td contenteditable="true" style="font-size:11pt;">Visual Embedded text (all visuals)</td>
+			<td contenteditable="true" style="font-size:11pt; text-align:center; font-weight:bold">
+				<input type="checkbox" name="togglecheckbox44" id="togglecheckbox44" onclick="yesno('togglecheckbox44','valueforcheckbox44');" hidden/> 
+				<label for="togglecheckbox44" name="valueforcheckbox44" id="valueforcheckbox44">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
 			</td>
 			<td contenteditable="true" style="font-size:11pt; font-style: italic; text-align:center; font-weight:bold"></td>
 		</tr>
@@ -177,7 +191,11 @@
 			<td contenteditable="true" style="font-size:11pt; font-style: italic; text-align:center; font-weight:bold"></td>
 		</tr>
 		<tr>
-			<td contenteditable="true" style="font-size:11pt;">Content formatting is respected (font-style, font size, capitalization, bold, italic, underline...)</td>
+			<!-- v7 update -->
+			<td contenteditable="true" style="font-size:11pt;">Content formatting is respected (font-style, font size, capitalization, bold, italic, underline...) <br>
+				<small>	<i><b>Note:</b> For MUGLER brand it is expected that all content are in lowercase (except some section like navigation etc.)</i></small>
+
+			</td>
 			<td contenteditable="true" style="font-size:11pt; text-align:center; font-weight:bold"><input type="checkbox" name="togglecheckbox23" id="togglecheckbox23" onclick="yesno('togglecheckbox23','valueforcheckbox23');" hidden/> <label for="togglecheckbox23" name="valueforcheckbox23" id="valueforcheckbox23">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
 			</td>
 			<td contenteditable="true" style="font-size:11pt; font-style: italic; text-align:center; font-weight:bold"></td>
@@ -238,7 +256,10 @@
 			<td contenteditable="true" style="font-size:11pt; font-style: italic; text-align:center; font-weight:bold"></td>
 		</tr>
 		<tr>
-			<td contenteditable="true" style="font-size:11pt;">Breadcrumbs (corresponding content, and order)</td>
+			<!-- v7 update -->
+			<td contenteditable="true" style="font-size:11pt;">Breadcrumbs (corresponding content, and order)<br>
+				<small>	<i><b>Note:</b> L1 > L2 > L3 should always be visible in breadcrumbs (L2 or L3 = Primary Category)</i></small>
+			</td>
 			<td contenteditable="true" style="font-size:11pt; text-align:center; font-weight:bold"><input type="checkbox" name="togglecheckbox31" id="togglecheckbox31" onclick="yesno('togglecheckbox31','valueforcheckbox31');" hidden/> <label for="togglecheckbox31" name="valueforcheckbox31" id="valueforcheckbox31">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
 			</td>
 			<td contenteditable="true" style="font-size:11pt; font-style: italic; text-align:center; font-weight:bold"></td>
