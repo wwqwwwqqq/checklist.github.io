@@ -12,7 +12,7 @@ table {
   
 
 
-  <tr> <!-- 01 -->
+<tr> <!-- 01 -->
 	<td contenteditable="true" style="font-size:11pt;">
 		Insert text here. 
 		<br>
